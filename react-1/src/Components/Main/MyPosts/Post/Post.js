@@ -1,6 +1,10 @@
-const Post = () => {
+const Post = (props) => {
   return (
-    <li>1</li>
+    <li>
+      <div>{props.message}</div>
+      <span>{props.likeCount}
+        { props.likeCount > 1 ? 'Likes' : 'Like' }</span>
+    </li>
   )
 }
 

@@ -4,8 +4,8 @@ const MyPosts = () => {
   return (
     <ul className="main-posts">
       Posts
-      <Post/>
-      <Post/>
+      <Post message="How are you?" likeCount="14"/>
+      <Post message="It`s my first post" likeCount="1"/>
     </ul>
   )
 }
