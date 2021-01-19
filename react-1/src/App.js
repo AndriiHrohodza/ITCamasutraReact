@@ -1,15 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
-import Header from './header';
-import Footer from './footer';
+import logo from './assets/freelancer.svg'
+import Header from "./Components/Header";
+import Nav from "./Components/Nav"
+import Main from "./Components/Main"
 
 const App = () => {
   return (
     <div className="App">
       <Header/>
-      <p>Hello</p>
-      <h1>h1</h1>
-      <Footer/>
+      <Nav/>
+      <Main/>
     </div>
   );
 }
