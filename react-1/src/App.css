@@ -20,3 +20,8 @@ aside {
 .content {
   grid-area: content;
 }
+
+.main-wall img {
+  width: 400px;
+  height: auto;
+}

@@ -2,7 +2,7 @@ import './App.css';
 import logo from './assets/freelancer.svg'
 import Header from "./Components/Header";
 import Nav from "./Components/Nav"
-import Main from "./Components/Main"
+import Main from "./Components/Main/Main"
 
 const App = () => {
   return (

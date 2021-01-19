@@ -1,13 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="80cbcc1e-b97d-402e-874a-45b0f6fadf92" name="Default Changelist" comment="" />
+    <list default="true" id="80cbcc1e-b97d-402e-874a-45b0f6fadf92" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/react-1/src/Components/Main/MyPosts/MyPosts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-1/src/Components/Main/MyPosts/Post/Post.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-1/src/Components/Main/Profile/Profile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-1/src/Components/Main/Wall/Wall.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-1/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/react-1/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-1/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/react-1/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-1/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-1/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-1/src/Components/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-1/src/Components/Main/Main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-1/src/Components/Nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-1/src/Components/Nav.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1lhhkW2q0gYk0xFfgTqn9AhWXCU" />
@@ -19,10 +35,33 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Bystrov/reks-glasses" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Bystrov/skyframe" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.HTML" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.CSS" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Programming\Studing\JS\ITKamasutraReact\react-1\src\Components\Main" />
+      <recent name="D:\Programming\Studing\JS\ITKamasutraReact\react-1\src\assets" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/react-1/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -37,7 +76,17 @@
       <workItem from="1608106757788" duration="354000" />
       <workItem from="1608107131704" duration="1481000" />
       <workItem from="1608112729825" duration="1449000" />
+      <workItem from="1610982448842" duration="1329000" />
+      <workItem from="1611047612288" duration="10406000" />
     </task>
+    <task id="LOCAL-00001" summary="Added main nav footer components">
+      <created>1611049326042</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1611049326042</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -54,5 +103,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added main nav footer components" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added main nav footer components" />
   </component>
 </project>
