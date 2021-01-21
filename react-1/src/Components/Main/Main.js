@@ -1,14 +1,15 @@
-import MyPosts from "./MyPosts/MyPosts";
-import Wall from "./Wall/Wall";
 import Profile from "./Profile/Profile";
+import {BrowserRouter, Route} from "react-router-dom"
+import Dialogs from "./Dialogs/Dialogs";
 
 const Main = () => {
   return (
-    <div className="main">
-      <Wall/>
-      <Profile/>
-      <MyPosts/>
-    </div>
+    <BrowserRouter>
+      <div className="main">
+        <Route path="/profile" component={Profile}/>
+        <Route path="/dialogs" component={Dialogs}/>
+      </div>
+    </BrowserRouter>
   )
 }
 
