@@ -1,7 +1,7 @@
 import './App.css';
 import logo from './assets/freelancer.svg'
-import Header from "./Components/Header";
-import Nav from "./Components/Nav"
+import Header from "./Components/Header/Header";
+import Nav from "./Components/Navbar/Nav"
 import Main from "./Components/Main/Main"
 
 const App = () => {

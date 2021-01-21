@@ -2,10 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80cbcc1e-b97d-402e-874a-45b0f6fadf92" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/react-1/src/Components/Main/Dialogs/Dialogs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-1/src/Components/Main/Profile/MyPosts/MyPosts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-1/src/Components/Main/Profile/PersonalInfo/PersonalInfo.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/react-1/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/react-1/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-1/src/Components/Main/MyPosts/MyPosts.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-1/src/Components/Main/MyPosts/MyPosts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-1/src/Components/Main/MyPosts/Post/Post.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-1/src/Components/Main/MyPosts/Post/Post.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-1/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/react-1/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-1/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/react-1/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-1/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-1/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-1/src/Components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-1/src/Components/Header/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-1/src/Components/Main/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-1/src/Components/Main/Main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-1/src/Components/Main/MyPosts/MyPosts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-1/src/Components/Main/MyPosts/Post/Post.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-1/src/Components/Main/Profile/MyPosts/Post/Post.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-1/src/Components/Main/Profile/Profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-1/src/Components/Main/Profile/Profile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-1/src/Components/Main/Wall/Wall.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-1/src/Components/Main/Profile/Wall/Wall.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-1/src/Components/Nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-1/src/Components/Navbar/Nav.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +31,14 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="1lhhkW2q0gYk0xFfgTqn9AhWXCU" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -29,15 +48,18 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Bystrov/skyframe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.CSS" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Programming\Studing\JS\ITKamasutraReact\react-1\src\Components\Main\Profile\MyPosts" />
+      <recent name="D:\Programming\Studing\JS\ITKamasutraReact\react-1\src\Components\Main\Profile" />
+      <recent name="D:\Programming\Studing\JS\ITKamasutraReact\react-1\src\Components\Navbar" />
+      <recent name="D:\Programming\Studing\JS\ITKamasutraReact\react-1\src\Components\Header" />
       <recent name="D:\Programming\Studing\JS\ITKamasutraReact\react-1\src\Components\Main" />
-      <recent name="D:\Programming\Studing\JS\ITKamasutraReact\react-1\src\assets" />
     </key>
   </component>
   <component name="RunManager">
@@ -72,6 +94,7 @@
       <workItem from="1608112729825" duration="1449000" />
       <workItem from="1610982448842" duration="1329000" />
       <workItem from="1611047612288" duration="10406000" />
+      <workItem from="1611250838741" duration="5324000" />
     </task>
     <task id="LOCAL-00001" summary="Added main nav footer components">
       <created>1611049326042</created>
@@ -80,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611049326042</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added likes count">
+      <created>1611072420641</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1611072420641</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,6 +130,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added main nav footer components" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added main nav footer components" />
+    <MESSAGE value="Added likes count" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added likes count" />
   </component>
 </project>
