@@ -3,14 +3,17 @@ import logo from './assets/freelancer.svg'
 import Header from "./Components/Header/Header";
 import Nav from "./Components/Navbar/Nav"
 import Main from "./Components/Main/Main"
+import {BrowserRouter} from "react-router-dom";
 
-const App = () => {
+const App = (props) => {
   return (
-    <div className="App">
-      <Header/>
-      <Nav/>
-      <Main/>
-    </div>
+    <BrowserRouter>
+      <div className="App">
+        <Header/>
+        <Nav/>
+        <Main/>
+      </div>
+    </BrowserRouter>
   );
 }
 

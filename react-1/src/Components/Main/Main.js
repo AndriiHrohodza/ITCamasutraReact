@@ -1,15 +1,15 @@
 import Profile from "./Profile/Profile";
-import {BrowserRouter, Route} from "react-router-dom"
+import {Route} from "react-router-dom";
 import Dialogs from "./Dialogs/Dialogs";
 
 const Main = () => {
   return (
-    <BrowserRouter>
-      <div className="main">
+    <div className="main">
+      <switch>
         <Route path="/profile" component={Profile}/>
         <Route path="/dialogs" component={Dialogs}/>
-      </div>
-    </BrowserRouter>
+      </switch>
+    </div>
   )
 }
 
