@@ -6,8 +6,8 @@ const Main = () => {
   return (
     <div className="main">
       <switch>
-        <Route path="/profile" component={Profile}/>
-        <Route path="/dialogs" component={Dialogs}/>
+        <Route exact="true" path="/profile" component={Profile}/>
+        <Route exact="true" path="/dialogs" component={Dialogs}/>
       </switch>
     </div>
   )

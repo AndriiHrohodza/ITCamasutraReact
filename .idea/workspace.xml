@@ -2,21 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80cbcc1e-b97d-402e-874a-45b0f6fadf92" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/react-1/src/Components/Main/Dialogs/Dialogs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-1/src/Components/Main/Profile/MyPosts/MyPosts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-1/src/Components/Main/Profile/PersonalInfo/PersonalInfo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-1/src/Components/Main/Dialogs/Dialog/Dialog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-1/src/Components/Main/Dialogs/Message/Message.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/react-1/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/react-1/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-1/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/react-1/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/react-1/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/react-1/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-1/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-1/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-1/src/Components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-1/src/Components/Header/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-1/src/Components/Main/Dialogs/Dialogs.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-1/src/Components/Main/Dialogs/Dialogs.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/react-1/src/Components/Main/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-1/src/Components/Main/Main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-1/src/Components/Main/MyPosts/MyPosts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-1/src/Components/Main/MyPosts/Post/Post.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-1/src/Components/Main/Profile/MyPosts/Post/Post.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-1/src/Components/Main/Profile/MyPosts/MyPosts.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-1/src/Components/Main/Profile/MyPosts/MyPosts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-1/src/Components/Main/Profile/PersonalInfo/PersonalInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-1/src/Components/Main/Profile/PersonalInfo/PersonalInfo.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/react-1/src/Components/Main/Profile/Profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-1/src/Components/Main/Profile/Profile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-1/src/Components/Main/Wall/Wall.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-1/src/Components/Main/Profile/Wall/Wall.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-1/src/Components/Nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-1/src/Components/Navbar/Nav.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-1/src/Components/Main/Profile/Wall/Wall.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +72,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="npm.start" />
+        <item itemvalue="npm.start" />
+        <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
   </component>
@@ -95,6 +93,12 @@
       <workItem from="1610982448842" duration="1329000" />
       <workItem from="1611047612288" duration="10406000" />
       <workItem from="1611250838741" duration="5324000" />
+      <workItem from="1611309360479" duration="11000" />
+      <workItem from="1611762402856" duration="2268000" />
+      <workItem from="1611824367209" duration="45000" />
+      <workItem from="1612121682225" duration="729000" />
+      <workItem from="1612461372191" duration="4160000" />
+      <workItem from="1612512063521" duration="6027000" />
     </task>
     <task id="LOCAL-00001" summary="Added main nav footer components">
       <created>1611049326042</created>
@@ -110,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611072420641</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Changed a tag to NavLink">
+      <created>1612462175082</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1612462175083</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,6 +142,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added main nav footer components" />
     <MESSAGE value="Added likes count" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added likes count" />
+    <MESSAGE value="Changed a tag to NavLink" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed a tag to NavLink" />
   </component>
 </project>
