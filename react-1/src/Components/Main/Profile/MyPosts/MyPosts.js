@@ -1,11 +1,19 @@
 import Post from "./Post/Post";
 
+const PostsData = [
+  {id: 1, message: "How are you?", likes: 14},
+  {id: 2, message: "It`s my first post", likes: 1}
+]
+
+const PostItems = PostsData.map((postItem) => {
+  return <Post message={postItem.message} likeCount={postItem.likes}/>
+})
+
 const MyPosts = () => {
   return (
     <ul className="main-posts">
       Posts
-      <Post message="How are you?" likeCount="14"/>
-      <Post message="It`s my first post" likeCount="1"/>
+      {PostItems}
     </ul>
   )
 }

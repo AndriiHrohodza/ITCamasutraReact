@@ -29,5 +29,15 @@ nav {
 }
 
 .dialogs {
+  display: flex;
+  justify-content: center;
+}
 
+.dialogs .dialog-items,
+.dialogs .messages {
+  width: 100%;
+}
+
+.dialogs .item-active {
+  color: white;
 }

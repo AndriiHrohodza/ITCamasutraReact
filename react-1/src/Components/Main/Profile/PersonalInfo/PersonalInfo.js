@@ -1,7 +1,12 @@
+import wallImage from "../../../../assets/wall.jpg";
+
 const PersonalInfo = (props) => {
   return (
     <div className="profile">
-      Ava+name
+      <div className="wall">
+        <img src={wallImage} alt="wall"/>
+      </div>
+      {props.name}
     </div>
   )
 }
