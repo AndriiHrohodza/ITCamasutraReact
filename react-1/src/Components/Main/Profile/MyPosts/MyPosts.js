@@ -6,7 +6,7 @@ const PostsData = [
 ]
 
 const PostItems = PostsData.map((postItem) => {
-  return <Post message={postItem.message} likeCount={postItem.likes}/>
+  return <Post message={postItem.message} likeCount={postItem.likes} key={postItem.id}/>
 })
 
 const MyPosts = () => {

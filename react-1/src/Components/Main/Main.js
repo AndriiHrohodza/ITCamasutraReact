@@ -5,10 +5,8 @@ import Dialogs from "./Dialogs/Dialogs";
 const Main = () => {
   return (
     <div className="main">
-      <switch>
-        <Route exact="true" path="/profile" component={Profile}/>
-        <Route exact="true" path="/dialogs" component={Dialogs}/>
-      </switch>
+      <Route path="/profile" render={ () => <Profile /> }/>
+      <Route path="/dialogs" render={ () => <Dialogs /> }/>
     </div>
   )
 }

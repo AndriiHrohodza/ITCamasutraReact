@@ -19,11 +19,11 @@ const MessageData = [
 ]
 
 const DialogItems =  DialogsData.map((dialog) => {
-  return <DialogItem id={dialog.id} name={dialog.name}/>
+  return <DialogItem id={dialog.id} key={dialog.id} name={dialog.name}/>
 })
 
 const MessageItems = MessageData.map((messageItem) => {
-  return <Message text={messageItem.text}/>
+  return <Message key={messageItem.id} text={messageItem.text}/>
 })
 
 const Dialogs = (props) => {
