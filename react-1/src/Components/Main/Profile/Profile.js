@@ -1,12 +1,11 @@
 import PersonalInfo from "./PersonalInfo/PersonalInfo";
 import MyPosts from "./MyPosts/MyPosts";
 
-const Profile = (props) => {
-  const dataMyPosts = props.dataProfile.myPosts;
+const Profile = (props) => {;
   return (
     <div className="profile">
       <PersonalInfo name="Andrew Hrohodza"/>
-      <MyPosts dataMyPosts={dataMyPosts}/>
+      <MyPosts dataMyPosts={props.profileState.posts}/>
     </div>
   )
 }

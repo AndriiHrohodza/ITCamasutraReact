@@ -6,13 +6,12 @@ import Main from "./Components/Main/Main"
 import {BrowserRouter} from "react-router-dom";
 
 const App = (props) => {
-  const mainData = props.data.app.main;
   return (
     <BrowserRouter>
       <div className="App">
         <Header/>
         <Nav/>
-        <Main mainData={mainData}/>
+        <Main mainState={props.appState}/>
       </div>
     </BrowserRouter>
   );

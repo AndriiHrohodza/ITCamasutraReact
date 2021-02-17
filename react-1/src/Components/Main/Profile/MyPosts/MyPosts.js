@@ -1,8 +1,8 @@
 import Post from "./Post/Post";
 
 const MyPosts = (props) => {
-  const PostsData = props.dataMyPosts.PostData;
-  const PostItems = PostsData.map((postItem) => {
+  console.log("props", props.dataMyPosts);
+  const PostItems = props.dataMyPosts.map((postItem) => {
     return <Post message={postItem.message} likeCount={postItem.likes} key={postItem.id}/>
   })
   
