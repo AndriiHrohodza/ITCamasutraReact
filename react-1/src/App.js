@@ -11,7 +11,7 @@ const App = (props) => {
       <div className="App">
         <Header/>
         <Nav/>
-        <Main/>
+        <Main mainState={props.appState}/>
       </div>
     </BrowserRouter>
   );
