@@ -11,7 +11,7 @@ const App = (props) => {
       <div className="App">
         <Header/>
         <Nav/>
-        <Main mainState={props.appState} addPost={props.addPost} updateTypingText={props.updateTypingText}/>
+        <Main store={props.store}/>
       </div>
     </BrowserRouter>
   );
