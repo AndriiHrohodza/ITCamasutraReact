@@ -3,7 +3,7 @@ import React from "react";
 
 
 const MyPosts = (props) => {
-  const PostItems = props.dataMyPosts.posts.map((postItem) => {
+  const PostItems = props.state.posts.map((postItem) => {
     return <Post message={postItem.message} likeCount={postItem.likes} key={postItem.id}/>
   })
   
@@ -18,11 +18,10 @@ const MyPosts = (props) => {
     props.updateTypingText(value);
   }
   
- 
   return (
     <div className="myPosts">
       <div className="textArea">
-        <textarea ref={newPostElem} value={props.dataMyPosts.newPostText} onChange={updateTypingText}/>
+        <textarea ref={newPostElem} value={props.state.newPostText} onChange={updateTypingText}/>
       </div>
       <button className="textArea-btn" onClick={ addPost }>
         Add post
